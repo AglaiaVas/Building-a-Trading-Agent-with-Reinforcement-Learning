@@ -9,7 +9,7 @@
 
 ## Composition
 
-- **Instances**: The dataset contains daily historical data for the SNP 500 from **October 1, 2024**, to **October 4, 2024**.
+- **Instances**: The dataset contains daily historical data for the SNP 500 from **October 1, 2004**, to **October 4, 2024**.
 - **Data Types**: Each instance represents a trading day and includes the following features: close prices, volume, low prices, and high prices.
 - **Missing Data**: There may be missing data due to non-trading days (e.g., holidays or weekends), but no missing data is expected for trading days.
 - **Confidentiality**: The dataset does not contain confidential information, as it is publicly available market data.
