@@ -72,12 +72,13 @@ The hyperparameters of the DDQN model were optimised using a simple grid search 
 
 ### Agent vs. Market NAV:
 
-- The rolling mean of the agent's NAV performance, compared to the market NAV, provides valuable insight into the agent's overall performance. The agent often closely tracks the market but experiences occasional periods of outperformance and underperformance. This reflects its ability to follow market movements while trying to capitalize on short-term opportunities.
+- The rolling mean of the agent's NAV performance, compared to the market NAV, provides valuable insight into the agent's overall performance. The agent often closely tracks the market but experiences occasional periods of outperformance and underperformance. This reflects its ability to follow market movements while trying to capitalise on short-term opportunities.
 
 - The S&P 500 typically grows by approximately 10% annually, presenting a challenge for the agent to consistently outperform such a robust and diverse index over time.
 
 ![Agent Average Rolling Win Mean](https://github.com/AglaiaVas/Building-a-Trading-Agent-with-Reinforcement-Learning/blob/e535cc0ee79dcd1a21a9fd1c981ef26c60b68def/agent_average_rolling_win_mean.png)
 
+- The agent's performance improves noticeably after approximately 300 steps, indicating that it starts to learn more effectively and better adjusts its strategy based on the environment. This is reflected in the agent’s ability to track the market closely and occasionally outperform it.
 - The rolling win ratio shows how often the agent outperforms the market over a 100-episode window. While the agent successfully outperforms in certain windows, it struggles to maintain consistency over all episodes.
 
 - The S&P 500 index is composed of top-performing stocks, giving the market a natural advantage in bullish conditions, making it harder for the agent to outperform, especially during sustained growth phases.
