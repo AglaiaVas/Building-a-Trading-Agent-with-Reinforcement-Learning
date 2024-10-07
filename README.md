@@ -62,7 +62,7 @@ The hyperparameters of the DDQN model were optimised using a simple grid search 
 - **Learning Rate**: A grid search tested 3 values (0.0001, 0.001, 0.01) across 10 episodes due to computational limits
 - **Gamma (Discount Factor)**: Values tested were 0.9, 0.95, and 0.99, controlling how future rewards are weighted relative to immediate rewards.
 - **Epsilon Decay**: The decay strategies tested were 0.99, 0.995, and 0.999, impacting how the exploration rate decreases over time, balancing exploration and exploitation.
-- Additionally trial-and-error approach for epsilon decay found that 250 steps were optimal, when 800 steps were used, a bigger number lead to excessive exploration
+- Additionally trial-and-error approach for epsilon decay found that 250 steps were optimal, when 800 steps were used, a bigger number led to excessive exploration
 
 
 ## Results
