@@ -82,7 +82,7 @@ The hyperparameters of the DDQN model were optimised using a simple grid search 
 
 -The S\&P 500 index is composed of top-performing and diversified stocks, giving the market a natural advantage in bullish conditions. This makes it challenging for the agent to consistently outperform, particularly during sustained growth phases.
 
-The index's inherent stability and steady upward trends during strong bull markets limit the agent’s ability to capitalize on short-term opportunities without taking significant risks. However, the agent’s ability to adapt to market fluctuations and take advantage of short-term deviations demonstrates its potential. Technical indicators like RSI, MACD, and ATR help the agent identify market reversals and optimize entry/exit points.
+The index's inherent stability and steady upward trends during strong bull markets limit the agent’s ability to capitalise on short-term opportunities without taking significant risks. However, the agent’s ability to adapt to market fluctuations and take advantage of short-term deviations demonstrates its potential. Technical indicators like RSI, MACD, and ATR help the agent identify market reversals and optimise entry/exit points.
 
 -Reinforcement learning allows the agent to learn from experience and refine its strategy over time, which is especially valuable in dynamic or volatile market conditions where passive strategies often underperform.
 
