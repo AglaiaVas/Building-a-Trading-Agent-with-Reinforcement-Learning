@@ -72,7 +72,7 @@ The hyperparameters of the DDQN model were optimised using a simple grid search 
 
 ### Agent vs. Market NAV:
 
-- The agent's performance improves noticeably after approximately 350 steps, indicating that it starts to learn more effectively and better adjusts its strategy based on the environment. This is reflected in the agent’s ability to track the market closely and occasionally outperform it.
+- The agent's performance improves noticeably after approximately 350 episodes, indicating that it starts to learn more effectively and better adjusts its strategy based on the environment. This is reflected in the agent’s ability to track the market closely and occasionally outperform it.
    
 - The rolling mean of the agent's NAV performance, compared to the market NAV, provides valuable insight into the agent's overall performance. The agent often closely tracks the market but experiences occasional periods of outperformance and underperformance. This reflects its ability to follow market movements while trying to capitalise on short-term opportunities.
   
