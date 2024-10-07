@@ -80,25 +80,19 @@ The hyperparameters of the DDQN model were optimised using a simple grid search 
 
 ![Agent Average Rolling Win Mean](https://github.com/AglaiaVas/Building-a-Trading-Agent-with-Reinforcement-Learning/blob/e535cc0ee79dcd1a21a9fd1c981ef26c60b68def/agent_average_rolling_win_mean.png)
 
-- The agent's performance improves noticeably after approximately 300 steps, indicating that it starts to learn more effectively and better adjusts its strategy based on the environment. This is reflected in the agent’s ability to track the market closely and occasionally outperform it.
-- The rolling win ratio shows how often the agent outperforms the market over a 100-episode window. While the agent successfully outperforms in certain windows, it struggles to maintain consistency over all episodes.
+-The S\&P 500 index is composed of top-performing and diversified stocks, giving the market a natural advantage in bullish conditions. This makes it challenging for the agent to consistently outperform, particularly during sustained growth phases.
 
-- The S&P 500 index is composed of top-performing stocks, giving the market a natural advantage in bullish conditions, making it harder for the agent to outperform, especially during sustained growth phases.
+The index's inherent stability and steady upward trends during strong bull markets limit the agent’s ability to capitalize on short-term opportunities without taking significant risks. However, the agent’s ability to adapt to market fluctuations and take advantage of short-term deviations demonstrates its potential. Technical indicators like RSI, MACD, and ATR help the agent identify market reversals and optimize entry/exit points.
 
-- The S&P 500 is a diversified index, and its inherent stability makes it challenging for a trading agent to outperform without taking significant risks. The agent is competing against a benchmark that benefits from overall market growth and stability.
+-Reinforcement learning allows the agent to learn from experience and refine its strategy over time, which is especially valuable in dynamic or volatile market conditions where passive strategies often underperform.
 
-- During strong bull markets, the agent is at a disadvantage, as the index tends to follow steady upward trends. This limits the agent’s ability to find short-term opportunities.
-
-- The agent's ability to adapt to market fluctuations and take advantage of short-term deviations is a positive indicator of its potential. The use of technical indicators like RSI, MACD, and ATR aids in identifying market reversals or entry/exit points.
-
-- Reinforcement learning allows the agent to learn from experience and optimize its strategy over time, which is valuable in dynamic or volatile market conditions where passive strategies may underperform.
 
 ### Additional Considerations:
 **More Episodes for Better Results:**
 Running additional episodes would enhance the agent's ability to learn and refine its strategy, improving overall performance. However, this comes at the expense of longer computational time. Reinforcement learning models typically require extensive iterations to converge on optimal strategies, which presents a trade-off between model accuracy and resource use. For example, the current run took 3 hours, and increasing the number of episodes would proportionally extend this time.
 
 ### Conclusion:
-The DDQN-based trading agent demonstrates potential in outperforming the S&P 500 in specific market conditions, particularly during volatile or corrective phases. However, it faces significant challenges in consistently outperforming a diversified and upward-trending index like the S&P 500. Despite these challenges, the agent’s ability to learn and adapt over time highlights the power of reinforcement learning in trading applications. Further improvements to the model, including more episodes, additional data inputs, and optimization techniques, could enhance the agent’s overall performance and make it more competitive in varied market conditions.
+The DDQN-based trading agent demonstrates potential in outperforming the S&P 500 in specific market conditions, particularly during volatile or corrective phases. However, it faces significant challenges in consistently outperforming a diversified and upward-trending index like the S&P 500. Despite these challenges, the agent’s ability to learn and adapt over time highlights the power of reinforcement learning in trading applications. Further improvements to the model, including more episodes, additional data inputs, and optimisation techniques, could enhance the agent’s overall performance and make it more competitive in varied market conditions.
 
 ## Reference
 
