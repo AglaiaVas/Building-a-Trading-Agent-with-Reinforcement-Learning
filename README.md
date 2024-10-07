@@ -54,7 +54,7 @@ The model architecture consists of two fully connected hidden layers with 256 un
 - **Replay Capacity**: 1e6 (size of the experience replay buffer)
 - **Epsilon**: Starts at 1.0 and decays to 0.01 over 250 steps using an exponential decay factor of 0.99.
 
-## Hyperparameter Optimization
+## Hyperparameter Optimisation
 
 The hyperparameters of the DDQN model were optimized using a simple grid search approach, where multiple combinations of hyperparameters were tested to find the optimal configuration. This method systematically explores various values across predefined ranges of key hyperparameters.
 
