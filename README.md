@@ -34,12 +34,13 @@ $$
 
 
 Where:
+
 - \( Q(s, a) \): Q-value for action \( a \) in state \( s \),
 - \( r \): Reward,
 - \( \gamma \): Discount factor for future rewards,
-- \( Q_{	ext{target}} \): Q-value evaluated by the target network,
-- \( Q_{	ext{online}} \): Q-value from the online network,
-- \(  lpha \): Learning rate.
+- \( Q_{\text{target}} \): Q-value evaluated by the target network,
+- \( Q_{\text{online}} \): Q-value from the online network,
+- \( \alpha \): Learning rate.
 
 ## Model Architecture
 
