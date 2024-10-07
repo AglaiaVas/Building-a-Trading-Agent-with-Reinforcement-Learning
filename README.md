@@ -29,9 +29,9 @@ The model is built on the **Double Deep Q-Network (DDQN)**, which is an enhancem
 The Q-value update for a given state-action pair \( (s, a) \) in DDQN is:
 
 $$
-Q(s, a) \leftarrow Q(s, a) +  lpha \left( r + \gamma Q_{	ext{target}}(s',  rg\max_{a'} Q_{	ext{online}}(s', a')) - Q(s, a) 
-ight)
+Q(s, a) \leftarrow Q(s, a) + \alpha \left( r + \gamma Q_{\text{target}}(s', \arg\max_{a'} Q_{\text{online}}(s', a')) - Q(s, a) \right)
 $$
+
 
 Where:
 - \( Q(s, a) \): Q-value for action \( a \) in state \( s \),
