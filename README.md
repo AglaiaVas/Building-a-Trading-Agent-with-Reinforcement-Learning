@@ -56,7 +56,7 @@ The model architecture consists of two fully connected hidden layers with 256 un
 
 ## Hyperparameter Optimisation
 
-The hyperparameters of the DDQN model were optimized using a simple grid search approach, where multiple combinations of hyperparameters were tested to find the optimal configuration. This method systematically explores various values across predefined ranges of key hyperparameters.
+The hyperparameters of the DDQN model were optimised using a simple grid search approach, where multiple combinations of hyperparameters were tested to find the optimal configuration. This method systematically explores various values across predefined ranges of key hyperparameters.
 
 ### Optimised Hyperparameters:
 - **Learning Rate**: A grid search tested 3 values (0.0001, 0.001, 0.01) across 10 episodes due to computational limits
