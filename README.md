@@ -7,7 +7,7 @@ This project involves developing a trading agent using Double Deep Q-Network (DD
 ## Data
 The dataset consists of daily historical stock data for the SNP 500 index, covering the period from October 1, 2004, to October 4, 2024. The dataset includes fields like close prices, high prices, low prices, and volume. The data is sourced from Yahoo Finance.
 
-### Data Visualization
+### Data Visualisation
 Here’s a graph of the raw SNP 500 closing prices over time:
 
 ![Formatted Raw Data Graph](https://github.com/AglaiaVas/Building-a-Trading-Agent-with-Reinforcement-Learning/blob/e535cc0ee79dcd1a21a9fd1c981ef26c60b68def/formatted_raw_data_graph.png)
