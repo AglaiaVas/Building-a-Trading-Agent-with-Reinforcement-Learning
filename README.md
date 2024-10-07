@@ -2,7 +2,7 @@
 # Building a Trading Agent with Reinforcement Learning
 
 
-This project involves developing a trading agent using Double Deep Q-Network (DDQN) reinforcement learning. The agent learns from stock market data and suggests actions such as "buy," "sell," or "hold" to maximize cumulative returns. The model is trained using daily historical data from the SNP 500 index and utilizes several technical indicators to inform its trading decisions.
+This project involves developing a trading agent using Double Deep Q-Network (DDQN) reinforcement learning. The agent learns from stock market data and suggests actions such as "buy," "sell," or "hold" to maximize cumulative returns. The model is trained using daily historical data from the SNP 500 index and utilises several technical indicators to inform its trading decisions.
 
 ## Data
 The dataset consists of daily historical stock data for the SNP 500 index, covering the period from October 1, 2004, to October 4, 2024. The dataset includes fields like close prices, high prices, low prices, and volume. The data is sourced from Yahoo Finance.
