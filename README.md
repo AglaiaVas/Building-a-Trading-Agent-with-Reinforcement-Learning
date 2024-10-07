@@ -21,7 +21,7 @@ The model is built on the **Double Deep Q-Network (DDQN)**, which is an enhancem
 
 ### Key Features of DDQN:
 1. **Online Network**: This network selects the best action to take for the given state.
-2. **Target Network**: This network evaluates the Q-value of the action selected by the online network to stabilize training.
+2. **Target Network**: This network evaluates the Q-value of the action selected by the online network to stabilise training.
 3. **Experience Replay**: Stores past experiences (state, action, reward, next state) in a buffer and samples mini-batches for training, which breaks the correlation between consecutive experiences.
 4. **Epsilon-Greedy Policy**: Balances exploration (trying new actions) and exploitation (using the best-known actions). The agent starts with high exploration (high epsilon) and gradually reduces it to focus more on exploitation as it learns.
 
