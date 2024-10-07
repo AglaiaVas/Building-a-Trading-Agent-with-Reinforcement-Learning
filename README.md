@@ -68,11 +68,11 @@ The hyperparameters of the DDQN model were optimised using a simple grid search 
 ## Results
 
 ![Agent vs Market Performance](https://github.com/AglaiaVas/Building-a-Trading-Agent-with-Reinforcement-Learning/blob/ec09fd30b190b80ab91e623467bb9b966635791c/agent_vs_market_rolling_means_final.png)
-Steps:
+
 
 ### Agent vs. Market NAV:
 
-- The rolling mean of the agent's NAV, compared to the market NAV, provides valuable insight into the agent's overall performance. The agent often closely tracks the market but experiences occasional periods of outperformance and underperformance. This reflects its ability to follow market movements while trying to capitalize on short-term opportunities.
+- The rolling mean of the agent's NAV performance, compared to the market NAV, provides valuable insight into the agent's overall performance. The agent often closely tracks the market but experiences occasional periods of outperformance and underperformance. This reflects its ability to follow market movements while trying to capitalize on short-term opportunities.
 
 - The S&P 500 typically grows by approximately 10% annually, presenting a challenge for the agent to consistently outperform such a robust and diverse index over time.
 
