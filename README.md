@@ -58,7 +58,7 @@ The model architecture consists of two fully connected hidden layers with 256 un
 
 The hyperparameters of the DDQN model were optimized using a simple grid search approach, where multiple combinations of hyperparameters were tested to find the optimal configuration. This method systematically explores various values across predefined ranges of key hyperparameters.
 
-### Optimized Hyperparameters:
+### Optimised Hyperparameters:
 - **Learning Rate**: A grid search tested 3 values (0.0001, 0.001, 0.01) across 10 episodes due to computational limits
 - **Gamma (Discount Factor)**: Values tested were 0.9, 0.95, and 0.99, controlling how future rewards are weighted relative to immediate rewards.
 - **Epsilon Decay**: The decay strategies tested were 0.99, 0.995, and 0.999, impacting how the exploration rate decreases over time, balancing exploration and exploitation.
