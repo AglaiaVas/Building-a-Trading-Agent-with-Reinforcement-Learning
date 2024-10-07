@@ -52,7 +52,7 @@ The hyperparameters of the DDQN model were optimised using a simple grid search 
 
 ## Performance Metrics
 
-The agent’s performance improves significantly after 300 steps, indicating better learning and adaptation.
+The agent’s performance improves significantly after 300 episodes, indicating better learning and adaptation.
 
 ![Agent vs Market Performance](https://github.com/AglaiaVas/Building-a-Trading-Agent-with-Reinforcement-Learning/blob/ec09fd30b190b80ab91e623467bb9b966635791c/agent_vs_market_rolling_means_final.png)
 
